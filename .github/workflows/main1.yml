@@ -21,4 +21,4 @@ jobs:
         aws-region: ap-south-1
     
     - name: Deploy static site to S# bucket
-      run: aws s3 sync . s3://tws-github-actions-demo --delete
+      run: aws s3 sync . s3://twsbucket989325 --delete
